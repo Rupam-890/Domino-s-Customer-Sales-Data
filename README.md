@@ -1,5 +1,5 @@
 # Domino-s-Customer-Sales-Data
-2. Total Revenue from Pizza Sales
+**2. Total Revenue from Pizza Sales**
 Stakeholder (Finance Team):
 "We need to report monthly revenue to management.
 Can you calculate the total revenue generated from all pizza sales,
