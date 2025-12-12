@@ -8,7 +8,7 @@ Can you calculate the total revenue generated from all pizza sales,
 considering price x quantity from each order?"
 Calculate total revenue from all pizza sales.
 
-3. Highest-Priced Pizza
+***3. Highest-Priced Pizza***
 stakeholder(menu Manager)
 our Premium pizzas must be correctly priced.can you find out which pizzza has 
 the highest price on our menu and confirm its category and size?
