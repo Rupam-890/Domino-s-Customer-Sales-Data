@@ -1,13 +1,17 @@
 # Domino-s-Customer-Sales-Data
 **2. Total Revenue from Pizza Sales**
-
 Stakeholder (Finance Team):
-
 "We need to report monthly revenue to management.
 Can you calculate the total revenue generated from all pizza sales,
 considering price x quantity from each order?"
 Calculate total revenue from all pizza sales.
-
+```SQL
+select 
+	sum(od.quantity*pz.price) as total_revenue
+from order_details as od
+join pizzas as pz
+	on od.pizza_id=pz.pizza_id
+```
 ***3. Highest-Priced Pizza***
 stakeholder(menu Manager)
 our Premium pizzas must be correctly priced.can you find out which pizzza has 
